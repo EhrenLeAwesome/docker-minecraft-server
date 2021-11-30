@@ -21,6 +21,7 @@ RUN apt-get update \
     unzip \
     knockd \
     ttf-dejavu \
+    openjdk-17-jre-headless \
     && apt-get clean
 
 RUN addgroup --gid 1000 minecraft \
